@@ -240,6 +240,11 @@ hr {
     height: 100%;
     padding: 30px;
     opacity: .9;
+    transform: translateX(-400px);
+    transition: transform .5s ease-in-out;
+  }
+
+  .nav-main ul.nav-menu.show {
     transform: translateX(-20px);
   }
 
