@@ -72,7 +72,7 @@ hr {
   width: 100%;
   height: 650px;
   background: url('./img/showcase2.jpg') no-repeat center center/cover;
-  padding-bottom: 50px;
+  padding: 50px;
   margin-bottom: 20px;
   display: flex;
   flex-direction: column;
@@ -218,4 +218,20 @@ hr {
   padding: 20px 0;
   text-align: center;
   padding-bottom: 20px;
+}
+
+/* Tamaños de Pantalla Medianos */
+@media (max-width: 700px) {
+  .news-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .cards-banner-one .content,
+  .cards-banner-two .content {
+    width: 80%;
+  }
+
+  .footer-links .footer-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
