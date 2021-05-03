@@ -40,3 +40,25 @@ ul {
 .nav-brand {
   width: 50px;
 }
+
+/* Navegación Left */
+.nav-main ul {
+  display: flex;
+}
+
+.nav-main ul li {
+  padding: 10px;
+}
+
+.nav-main ul li a {
+  padding: 6px;
+}
+
+.nav-main ul li a:hover {
+  border-bottom: 2px solid #ffffff;
+}
+
+.nav-main ul.nav-menu {
+  flex: 1;
+  margin-left: 20px;
+}
