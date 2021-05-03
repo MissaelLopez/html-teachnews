@@ -131,3 +131,22 @@ hr {
 .news-cards a:hover {
   text-decoration: underline;
 }
+
+/* Cards Banner One*/
+.cards-banner-one {
+  width: 100%;
+  height: 350px;
+  background: url('./img/tech-red.jpg');
+  margin: 40px;
+}
+
+.cards-banner-one .content {
+  width: 40%;
+  padding: 90px 0 0 30px;
+  color: #ffffff;
+}
+
+.card-banner-one p,
+.card-banner-one h2 {
+  margin: 10px 0 20px 0;
+}
