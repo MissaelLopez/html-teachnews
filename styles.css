@@ -26,3 +26,13 @@ ul {
   width: 90%;
   margin: auto;
 }
+
+/* Estilos de Navegación */
+.nav-main {
+  font-size: 17px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  padding: 20px 0;
+}
